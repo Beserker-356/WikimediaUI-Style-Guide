@@ -11,6 +11,7 @@
 	<title>Wikimedia Design Style Guide (WikimediaUI) – provided by Wikimedia Foundation Design Team</title>
 	<script>
 		document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
+		document.querySelector("#kk").innerText = "Hello";
 	</script>
 	<link rel="dns-prefetch" href="https://piwik.wikimedia.org/">
 	<link rel="preload" href="fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
@@ -35,7 +36,7 @@
 				<input type="checkbox" id="trigger--nav-main" class="trigger--nav-main">
 				<nav id="nav--main" class="nav nav--main">
 					<ol>
-						<li class="nav__item is-on"><a href="index.html">Introduction</a></li>
+						<li class="nav__item is-on" id="kk"><a href="index.html">Introduction</a></li>
 						<li class="nav__item"><a href="design-principles.html">Design principles</a></li>
 						<li class="nav__item"><a href="visual-style.html">Visual style</a>
 							<ul class="nav__sub-items">
